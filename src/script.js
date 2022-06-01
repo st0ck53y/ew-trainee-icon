@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         Eyewire Trainee Icon
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://eyewire.org/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=eyewire.org
-// @grant        none
+// @description  Adds an icon to the start of a username in chat when the player is a trainee
+// @author       st0ck53y
+// @match        https://*.eyewire.org/
+// @excludes     https://*.eyewire.org/1.0/*
+// @downloadURL  https://raw.githubusercontent.com/st0ck53y/ew-trainee-icon/master/src/script.js
 // ==/UserScript==
 
 /* global $ */
