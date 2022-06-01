@@ -46,10 +46,11 @@
         fetch("https://eyewire.org/1.0/player/" + username + "/bio").then(response => response.json()).then(bio => callback(bio.level))
     }
 
+    // mostly stolen from kk's ewdlc
     var mutationObserver = new MutationObserver(observerCallback);
     mutationObserver.observe(document.getElementsByClassName('chatMsgContainer')[0], {
         childList: true,
-        attributres: false,
+        attributes: false,
         characterData: false,
         subtree: false
     });
