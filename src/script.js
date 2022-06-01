@@ -5,8 +5,10 @@
 // @description  Adds an icon to the start of a username in chat when the player is a trainee
 // @author       st0ck53y
 // @match        https://*.eyewire.org/
-// @excludes     https://*.eyewire.org/1.0/*
+// @exclude      https://*.eyewire.org/1.0/*
+// @updateURL    https://raw.githubusercontent.com/st0ck53y/ew-trainee-icon/master/src/script.js
 // @downloadURL  https://raw.githubusercontent.com/st0ck53y/ew-trainee-icon/master/src/script.js
+// @homepage     https://github.com/st0ck53y/ew-trainee-icon
 // ==/UserScript==
 
 /* global $ */
